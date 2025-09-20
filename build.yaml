@@ -68,13 +68,13 @@ include:
 
   # peripheral_left
   - board: nice_nano_v2
-    shield: sofle_left_peripheral nice_view
+    shield: sofle_left_peripheral nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_left_peripheral_nice_view
 
   # peripheral_right
   - board: nice_nano_v2
-    shield: sofle_right_peripheral nice_view
+    shield: sofle_right_peripheral nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_right_peripheral_nice_view
 
